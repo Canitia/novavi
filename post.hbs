@@ -1,0 +1,40 @@
+{{!< default}}
+{{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
+  <div class="row h-100 page-row">
+  {{#post}}
+      <div class="col col-xs-12 col-md-12 col-lg-12 main-content">
+      <article>
+        <div class="post-head">
+              <h1 class="text-center post-title">{{title}}</h1>
+                <div class="post-authors text-center">
+                    {{#foreach authors}}
+                        <a href="{{url}}"><img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}" class="post-avatar" alt="{{t "Written by"}} {{name}}" title="{{t "Written by"}} {{name}}"></a> 
+                    {{/foreach}}
+                </div>
+              <div class="post-subitems text-center">
+                <i class="fas fa-clock"></i><time datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time>
+                <i class="fas fa-book"></i>{{reading_time seconds=(t "< 1 min read") minute=(t "1 min read") minutes=(t "% min read")}}
+              </div>
+        </div>
+      <hr />
+      <div class="post-content">
+        {{content}}
+      </div>
+
+      <div class="cat-links">
+          {{#if tags}}
+            <div class="tagslist">
+              {{#foreach tags}}
+                  <a href="{{@blog.url}}/tag/{{name}}">#{{name}}</a>
+                {{/foreach}}
+          </div>
+          {{/if}}<!-- end tags if -->
+      </div><!-- end cat links -->
+         {{> 'post/author-section'}}
+
+         {{> 'post/related-posts'}}
+      </article>
+    </div>
+{{/post}}
+
+</div>
