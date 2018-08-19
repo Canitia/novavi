@@ -1,0 +1,32 @@
+{
+  "name": "novavi",
+  "description": "A minimalistic MDL2-ish theme for Ghost.",
+  "version": "1.0-rc.1",
+  "engines": {
+      "ghost": ">=2.0.0"
+  },
+  "license": "MIT",
+  "screenshots": {
+    "desktop": "assets/screenshot-desktop.png",
+    "mobile": "assets/screenshot-mobile.png"
+  },
+  "author": {
+    "name": "Canitia.nl",  
+    "email": "support@canitia.nl",
+    "url": "https://canitia.nl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.canitia.nl/Canitia/novavi.git"
+  },
+  "bugs": "https://git.canitia.nl/Canitia/novavi/issues",
+ 
+  "config": {
+      "posts_per_page": 15
+  },
+  "keywords": [
+    "ghost",
+    "blog",
+    "theme"
+  ]
+}
