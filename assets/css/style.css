@@ -42,32 +42,12 @@ pre {
 blockquote {
 	display: table;
 	position:relative;
-	padding-top:10px;
-	padding-bottom:10px;
+	padding: 15px;
 	background-color: whitesmoke;
 	border: 2px solid #ebebeb !important;
-	width: 100%
-}
-
-blockquote:before {
-    top:-20px;
-    left:8px;
-}
-
-blockquote:before, blockquote:after {
-    color:black;
-    content:'\f10d';
-    font-family:'Font Awesome 5 Free';
-    font-size:25px;
-    position:absolute;
-    display:block;
-}
-blockquote:after {
-    content:'\f10e';
-    right:8px;
-    top:auto;
-    left:auto;
-	bottom: -23px;
+	width: 100%;
+	text-align: center;
+	font-size: 110%;
 }
 
 blockquote > p {
@@ -82,7 +62,7 @@ p > a, .collection .collection-item, .collection-item > a, p > em > a {
 	color: black !important;
 }
 
-p > a:focus, p > a:hover, p > em > a:hover
+p > a:focus, p > a:hover, p > em > a:hover, .collection-item > a:hover, p > em > a:hover
 {
   color:#4285f4 !important;
 }
@@ -115,7 +95,7 @@ p > a:focus, p > a:hover, p > em > a:hover
 
 .post-subitems > a:hover
 {
-	color: #b5b5b5;
+	color: #4285f4 !important;
 	text-decoration: underline;
 }
 
@@ -523,6 +503,12 @@ POST/ARTICLE HEADERS
  .post-full-content .kg-image {
     max-width: 100%;
 }
+
+.kg-image-card,
+.kg-gallery-card {
+    margin: 0 0 1.5em;
+}
+
  /* Preventing full-width image overlap with post image.  */
 .post-full-image + .post-full-content .kg-post *:first-child .kg-image {
     width: 100%;
@@ -544,7 +530,8 @@ POST/ARTICLE HEADERS
     max-width: 100%;
 }
 
- .kg-image-card figcaption {
+ .kg-image-card figcaption,
+ .kg-gallery-card figcaption {
 	text-align: center;
 	margin-bottom: 35px;
 	font-style: italic;
@@ -558,7 +545,30 @@ POST/ARTICLE HEADERS
     margin: 0;
 }
 
-
+.kg-gallery-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5em auto;
+    max-width: 100%;
+    width: 100vw;
+}
+ .kg-gallery-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ .kg-gallery-image img {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+ .kg-gallery-row:not(:first-of-type) {
+    margin: 0.75em 0 0 0;
+}
+ .kg-gallery-image:not(:first-of-type) {
+    margin: 0 0 0 0.75em;
+}
 
 .post-template {
 	background: white;
@@ -770,7 +780,7 @@ iframe {
 
 .cat-links > a:hover {
 	text-decoration: underline;
-	color: #b5b5b5;
+	color: #4285f4 !important;
 }
 
 .tagslist {
@@ -836,7 +846,6 @@ img.avatar {
 	margin-top: 150px;
 	padding: 10px;
 	background: white;
-	margin-top: 300px;
 }
 
 .author-name {
