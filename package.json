@@ -3,7 +3,7 @@
   "description": "A minimalistic MDL2-ish theme for Ghost.",
   "version": "1.0-rc.1",
   "engines": {
-      "ghost": ">=2.0.0"
+      "ghost": ">=2.0.3"
   },
   "license": "MIT",
   "screenshots": {
