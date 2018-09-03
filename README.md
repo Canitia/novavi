@@ -20,7 +20,7 @@ This theme is currently marked 'stable'. Unless a new Ghost update introduces ma
 # Tested on:
 
 ## Platform 
-Novavi **requires** Ghost 2.x.x as is stated in package.json. 
+Novavi **requires** Ghost 2.1.x as is stated in package.json. 
 
 ## Browsers
 - Microsoft Edge (April 2018 Update)
