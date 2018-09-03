@@ -5,7 +5,7 @@ Novavi uses the following libraries;
 - JQuery (3.1.x)
 
 # Theme requirements
-- Novavi **requires** Ghost version **2.0.0** to install and work as intended. 
+- Novavi **requires** Ghost version **2.1.0** to install and work as intended. 
 - Enable the Ghost API in the Ghost settings panel -> Labs -> Ghost API for the full featureset (although it's likely on by default if you run the latest version).
 
 # Release
