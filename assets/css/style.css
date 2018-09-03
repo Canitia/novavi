@@ -62,7 +62,7 @@ p > a, .collection .collection-item, .collection-item > a, p > em > a {
 	color: black !important;
 }
 
-p > a:focus, p > a:hover, p > em > a:hover
+p > a:focus, p > a:hover, p > em > a:hover, .collection-item > a:hover, p > em > a:hover
 {
   color:#4285f4 !important;
 }
@@ -95,7 +95,7 @@ p > a:focus, p > a:hover, p > em > a:hover
 
 .post-subitems > a:hover
 {
-	color: #b5b5b5;
+	color: #4285f4 !important;
 	text-decoration: underline;
 }
 
@@ -780,7 +780,7 @@ iframe {
 
 .cat-links > a:hover {
 	text-decoration: underline;
-	color: #b5b5b5;
+	color: #4285f4 !important;
 }
 
 .tagslist {
