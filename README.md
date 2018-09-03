@@ -8,7 +8,7 @@ Novavi uses the following libraries;
 - Novavi **requires** Ghost version **2.1.0** to install and work as intended. 
 - Enable the Ghost API in the Ghost settings panel -> Labs -> Ghost API for the full featureset (although it's likely on by default if you run the latest version).
 
-![Novavi main][https://gitlab.com/canitia/novavi/raw/dev/assets/screenshot-desktop.png]
+![Novavi main](https://gitlab.com/canitia/novavi/raw/dev/assets/screenshot-desktop.png)
 
 # Release
 This theme is currently marked 'stable'. Unless a new Ghost update introduces major new features or rewrites it's about as stable as can be ;).
