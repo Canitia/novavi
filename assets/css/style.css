@@ -835,8 +835,9 @@ img.avatar {
 }
 
 .avatar-page {
-	width:150px;
-	border-radius: 150px;
+	width:100px;
+	height:100px;
+	border-radius: 50px;
 }
 
 .avatar-page-author {
