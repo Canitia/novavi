@@ -1,7 +1,7 @@
 {
   "name": "novavi",
   "description": "A minimalistic MDL2-ish theme for Ghost.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
       "ghost": ">=2.1.0"
   },
