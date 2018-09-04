@@ -704,12 +704,9 @@ iframe {
 *****************************************/
 
 .post-avatar {
-	height: auto;
+	height: 75px;
 	width: 75px;
 	border-radius: 50px;
-	padding: 10px;
-	margin-left: 10px;
-	margin-right: 10px;
 }
 
 .tag_head_wrap {
