@@ -178,6 +178,12 @@ p > a:focus, p > a:hover, p > em > a:hover, .collection-item > a:hover, p > em >
 	z-index: 10;
 }
 
+ul#navbarNav {
+	margin-bottom: 0 !important;
+	padding-left: 0 !important;
+}
+
+
 .navbar-nav {
 	display: flex !important;
 	flex-wrap: nowrap !important;
@@ -973,6 +979,28 @@ footer {
 		margin: 0 !important;
 	}
 
+	.navbar-collapse {
+		height: 100vh;
+		transition-duration: 0.5s;
+	}
+
+	.navbar-collapse .navbar-nav .menu-item a:hover {
+		font-size: 2em;
+		text-transform: uppercase;
+		text-decoration: none;
+		text-shadow: none;
+		color: #4285f4 !important;
+	}
+
+	.navbar-collapse .navbar-nav .menu-item {
+		background: white;
+	}
+
+	.navbar-collapse .navbar-nav .menu-item a {
+		font-size: 2em;
+		text-transform: uppercase;
+	}
+
 	.avatar-page-author {
 		margin-top: 0;
 	}
@@ -1027,14 +1055,6 @@ footer {
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
-	}
-
-	.navbar-collapse .navbar-nav .menu-item a:hover {
-		color: black !important;
-		background: #ebebeb !important;
-		border-radius: 15px;
-		text-decoration: none;
-		text-shadow: none;
 	}
 
 	.navbar-collapse {
@@ -1214,6 +1234,23 @@ footer {
 
 	.container-fluid {
 		max-width: 760px;
+	}
+
+	.navbar-collapse .navbar-nav .menu-item {
+		background: white;
+	}
+
+	.navbar-collapse .navbar-nav .menu-item a {
+		font-size: 2em;
+		text-transform: uppercase;
+	}
+
+	.navbar-collapse .navbar-nav .menu-item a:hover {
+		font-size: 2em;
+		text-transform: uppercase;
+		text-decoration: none;
+		text-shadow: none;
+		color: #4285f4 !important;
 	}
 
 	.tag_head_wrap {
