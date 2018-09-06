@@ -374,14 +374,12 @@ POST/ARTICLE CARD UI - main
 	margin-top: 15px;
 	white-space: pre-wrap;
 	text-overflow: ellipsis;
-	font-family: 'Montserrat Alternates', sans-serif !important;
 	font-weight: 300;
 	line-height: 1.3;
 }
 
 .card-title a {
 	color: black;
-	font-family: 'Montserrat Alternates', sans-serif !important;
 	font-weight: 700;
 }
 
@@ -846,7 +844,6 @@ img.avatar {
 }
 
 .avatar-page-author {
-	margin-top: 150px;
 	padding: 10px;
 	background: white;
 }
