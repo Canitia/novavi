@@ -152,6 +152,7 @@ p > a:focus, p > a:hover, p > em > a:hover, .collection-item > a:hover, p > em >
 
 .logo-nav {
 	height: 32px;
+	border-radius: 50px;
 }
 
 .text-main {
