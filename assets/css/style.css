@@ -7,13 +7,19 @@ html body {
 	height: 100%;
 	line-height: 1.66667;
 	min-width: 320px;
+	font-family: 'Antic Slab', serif !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: #2f313d;
-    font-weight: bold;
-    line-height: 1.2;
-    text-rendering: optimizeLegibility;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif !important;
+}
+
+h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat Alternates', sans-serif !important;
 }
 
 p {
@@ -85,7 +91,7 @@ p > a:focus, p > a:hover, p > em > a:hover, .collection-item > a:hover, p > em >
 
 .post-title {
 	margin-top: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .post-subitems {
@@ -368,14 +374,14 @@ POST/ARTICLE CARD UI - main
 	margin-top: 15px;
 	white-space: pre-wrap;
 	text-overflow: ellipsis;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat Alternates', sans-serif !important;
 	font-weight: 300;
 	line-height: 1.3;
 }
 
 .card-title a {
 	color: black;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat Alternates', sans-serif !important;
 	font-weight: 700;
 }
 
@@ -425,7 +431,6 @@ POST/ARTICLE CARD UI - main
 .badge {
 	font-weight: 400;
 	color: black;
-	font-family: 'Open Sans', sans-serif;
 }
 
 .badge-featured {
@@ -434,7 +439,6 @@ POST/ARTICLE CARD UI - main
     color: #545454;
 	text-align: center;
 	border-radius: 15px;
-	font-family: 'Open Sans', sans-serif;
 }
 
 .post-featured {
@@ -586,25 +590,25 @@ POST/ARTICLE HEADERS
 
 .post-content h1 {
   	font-size: 210%;
-	font-family: 'Karla', sans-serif !important;
+	font-family: 'Montserrat Alternates', sans-serif !important;
 	margin-top: 35px;
 }
 
 .post-content h2 {
 	font-size: 180%;
-	font-family: 'Karla', sans-serif !important;
+	font-family: 'Montserrat Alternates', sans-serif !important;
 	margin-top: 35px;
 }
 
 .post-content h3 {
 	font-size: 165%;
-	font-family: 'Karla', sans-serif !important;
+	font-family: 'Montserrat Alternates', sans-serif !important;
 	margin-top: 35px;
 }
 
 .post-content h4 {
 	font-size: 140%;
-	font-family: 'Karla', sans-serif !important;
+	font-family: 'Montserrat Alternates', sans-serif !important;
 	margin-top: 35px;
 }
 
@@ -694,7 +698,7 @@ iframe {
     opacity: 0.7;
     color: black !important;
     border-radius: 15px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat Alternates', sans-serif !important;
 }
 
 .h-slider {
