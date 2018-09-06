@@ -980,6 +980,7 @@ footer {
 
 	.logo-nav {
 		height: 25px;
+		margin-left: 10px;
 	}
 
 	.logo-main {
@@ -1245,6 +1246,10 @@ footer {
 		height: 75px;
 		max-height: 75px;
 		max-width: 100%;
+	}
+	
+	.logo-nav {
+		margin-left: 10px;
 	}
 
 	.cover-image {
