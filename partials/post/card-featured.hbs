@@ -1,4 +1,5 @@
 {{#get "posts" limit="3" filter="featured:true" order="published_at desc" as |featured| }}
+{{#if featured}}
 <div id="carousel" class="carousel slide" data-ride="carousel">
 
   <div class="carousel-inner" role="listbox">
@@ -20,4 +21,8 @@
             </a>
 </div>
 </div>
+{{else}}
+<div class="tag_heading text-center" style="background-image: url({{asset "images/fallback-cover.jpg"}});">
+</div>
+{{/if}}
 {{/get}}
