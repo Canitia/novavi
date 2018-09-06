@@ -759,7 +759,8 @@ iframe {
     bottom: 20px;
     left: 15%;
 	z-index: 10;
-	opacity: 0.7;
+	opacity: 0.8;
+	font-family: 'Montserrat Alternates', sans-serif !important;
 }
 
 .tag_heading > .posttitle.posttitle-author {
