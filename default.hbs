@@ -29,7 +29,7 @@
 
 {{#is "author"}}
 <div class="tag_head_wrap">
-  {{#author}}
+ {{#primary_author}}
   <div class="tag_heading text-center" style="background-image: url({{#if cover_image}}{{img_url cover_image}}{{else}}{{asset "images/fallback-cover.jpg"}}{{/if}});">
     
     <div class="author_wrap">
@@ -41,7 +41,7 @@
       </div>
       </div>
   </div>
-  {{/author}}
+  {{/primary_author}}
   </div>
 {{/is}}
 
