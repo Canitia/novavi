@@ -3,17 +3,16 @@
    {{#is "post, page"}}
       {{#get "posts" limit="5" filter="id:-{{id}}+tag:{{primary_tag.slug}}" as |related|}}
 
-<div class="related">
-   <h2>{{t "Related"}}</h2>       
-          <ul class="collection">
-                    {{#foreach related}}
-                         <li class="collection-item"><a href="{{url}}">{{title}}</a></li>
-                    {{else}}
-                        <p>{{t "No related posts found"}}</p>
-                    {{/foreach}}
-
-          </ul>
-  </div>
+      <div class="related">
+        <h2>{{t "Related"}}</h2>       
+        <ul class="collection">
+            {{#foreach related}}
+                <li class="collection-item"><a href="{{url}}">{{title}}</a></li>
+            {{else}}
+                <p>{{t "No related posts found"}}</p>
+            {{/foreach}}
+        </ul>
+        </div>
     {{/get}}
   {{/is}}
 {{/if}}
