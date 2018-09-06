@@ -22,7 +22,14 @@
 </div>
 </div>
 {{else}}
-<div class="tag_heading text-center" style="background-image: url({{asset "images/fallback-cover.jpg"}});">
-</div>
+    {{#if @blog.cover_image}}
+        <div class="tag_heading text-center" style="background-image: url({{@blog.cover_image}});">
+        </div>
+    {{else}}
+        <div class="tag_heading text-center" style="background-image: url({{asset "images/fallback-cover.jpg"}});">
+        </div>
+    {{/if}}
+
 {{/if}}
+
 {{/get}}
