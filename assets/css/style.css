@@ -67,6 +67,12 @@ p > a:focus, p > a:hover, p > em > a:hover, .collection-item > a:hover, p > em >
   color:#4285f4 !important;
 }
 
+.tag_heading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
 
 .postdate a, .tag_heading  {
       color: white !important;
@@ -661,15 +667,15 @@ iframe {
 
 *****************************************/
 .carousel {
-	height: 30vh;
+	height: 35vh;
 }
 
 .carousel-inner {
-	height: 30vh;
+	height: 35vh;
 }
 
 .carousel-item {
-	height: 30vh;
+	height: 35vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
