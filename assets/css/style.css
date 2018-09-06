@@ -754,15 +754,9 @@ iframe {
 	text-shadow: none;
 	color: black !important;
 	background: white;
-	width: 35%;
-	margin-left: auto;
-	margin-right: auto;
 	border-radius: 15px;
+	padding: 10px;
 	text-transform: capitalize;
-	position: absolute;
-    right: 15%;
-    bottom: 20px;
-    left: 15%;
 	z-index: 10;
 	opacity: 0.8;
 	font-family: 'Montserrat Alternates', sans-serif !important;
@@ -1038,10 +1032,6 @@ footer {
 		width: 80px;
 	}
 
-	.tag_heading >.posttitle {
-		margin-top: 140px;
-	}
-
 	.tag_heading > .posttitle.posttitle-author {
 		font-size: 135%;
 	}
@@ -1055,26 +1045,6 @@ footer {
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
-	}
-
-	.navbar-collapse {
-		margin-top: 25px;
-	}
-
-	.navbar-nav {
-		flex-direction: column !important;
-	}
-
-	.navbar-brand:hover {
-		color: #545454 !important;
-	}
-
-	.nav-link {
-		text-align: center;
-	}
-
-	.nav-link:hover {
-		color: #ebebeb !important;
 	}
 
 	.container-fluid {
@@ -1370,10 +1340,6 @@ footer {
 	.tag_heading > .posttitle.posttitle-author {
 		font-size: 180% !important;
 	}
-
-	.tag_heading > .posttitle {
-		margin-top: 180px;
-	}
 	
 	.main-content {
 		margin-top: 30px;
@@ -1424,10 +1390,6 @@ footer {
 
 	.tag_heading > .posttitle.posttitle-author {
 		font-size: 180% !important;
-	}
-
-	.tag_heading > .posttitle {
-		margin-top: 200px;
 	}
 
 	.logo-main {
