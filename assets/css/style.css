@@ -697,6 +697,7 @@ iframe {
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	font-family: 'Montserrat Alternates', sans-serif !important;
 }
 
 /* **************************************
