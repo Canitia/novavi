@@ -993,6 +993,10 @@ footer {
 		margin: 0 !important;
 	}
 
+	.navbar-nav {
+		flex-direction: column !important;
+	}
+
 	.navbar-collapse {
 		height: 100vh;
 		transition-duration: 0.5s;
@@ -1008,6 +1012,7 @@ footer {
 
 	.navbar-collapse .navbar-nav .menu-item {
 		background: white;
+		text-align: center;
 	}
 
 	.navbar-collapse .navbar-nav .menu-item a {
@@ -1224,6 +1229,11 @@ footer {
 
 	.container-fluid {
 		max-width: 760px;
+	}
+
+	.navbar-collapse {
+		height: 100vh;
+		transition-duration: 0.5s;
 	}
 
 	.navbar-collapse .navbar-nav .menu-item {
