@@ -455,9 +455,9 @@
                 <div class="post-authors text-center">
                     {{#foreach authors}}
                         {{#if profile_image}}
-                            <amp-img src="{{img_url profile_image}}" class="avatar" title="{{title}}" alt="Image of {{name}}" layout="fixed" height="150px" width="150px"></amp-img>
+                            <amp-img src="{{img_url profile_image}}" class="avatar" title="{{title}}" alt="Image of {{name}}" layout="fixed" height="85px" width="85px"></amp-img>
                         {{else}}
-                            <amp-img src="{{asset "images/fallback-user.jpg"}}" class="avatar" title="{{title}}" alt="Image of {{name}}" layout="fixed" height="150px" width="150px"></amp-img>  
+                            <amp-img src="{{asset "images/fallback-user.jpg"}}" class="avatar" title="{{title}}" alt="Image of {{name}}" layout="fixed" height="85px" width="85px"></amp-img>  
                         {{/if}}
                     {{/foreach}}
                 </div>
