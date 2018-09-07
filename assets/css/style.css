@@ -1211,8 +1211,8 @@ footer {
 	}
 
 	.kg-image-card.kg-width-wide, .kg-image-card.kg-width-full {
-		margin-left: 0;
-		margin-right: 0;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
 	}
 
 	.carousel {
@@ -1384,8 +1384,8 @@ footer {
 	}
 
 	.kg-image-card.kg-width-wide, .kg-image-card.kg-width-full {
-		margin-left:0;
-		margin-right:0;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
 	}
 
 }
@@ -1506,8 +1506,8 @@ footer {
 
 
 	.kg-image-card.kg-width-wide, .kg-image-card.kg-width-full {
-		margin-left:0;
-		margin-right:0;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
 	}
 
 }
