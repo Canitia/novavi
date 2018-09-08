@@ -30,7 +30,7 @@
 {{#is "author"}}
 {{#author}}
 <div class="tag_head_wrap">
-  <div class="tag_heading text-center" style="background-image: url({{#if cover_image}}{{img_url cover_image}}{{else}}{{asset "images/fallback-cover.jpg"}}{{/if}});">
+  <div class="tag_heading text-center" style="background-image: url({{#if cover_image}}{{img_url cover_image}}{{/if}});">
     
     <div class="author_wrap">
     <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}" class="avatar-page avatar-page-author center-align" title="Image of {{name}}" alt="Image of {{name}}" />
@@ -49,7 +49,7 @@
 {{#is "tag"}}
 <div class="tag_head_wrap">
   {{#tag}}
-  <div class="tag_heading text-center" style="background-image: url({{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-tag.jpg"}}{{/if}});">
+  <div class="tag_heading text-center" style="background-image: url(  {{#if feature_image}}{{img_url feature_image}}{{/if}});">
   <p class="posttitle">{{name}}</p>
   </div>
   {{/tag}}
@@ -61,10 +61,11 @@
 {{#is "post, page"}}
 <div class="d-block d-sm-block d-md-block d-lg-block tag_head_wrap">
   {{#post}}
-    <div class="tag_heading tag_heading_post text-center" style="background-image: url({{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}});">
+  {{#if feature_image}}
+    <div class="tag_heading tag_heading_post text-center" style="background-image: url({{img_url feature_image}});">
     
     </div>
-
+  {{/if}}
   {{/post}}
   </div>
 {{/is}}
