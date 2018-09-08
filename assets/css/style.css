@@ -78,6 +78,7 @@ p > a:focus, p > a:hover, p > em > a:hover, .collection-item > a:hover, p > em >
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	background: white;
 }
 
 .postdate a, .tag_heading  {
