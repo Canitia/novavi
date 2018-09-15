@@ -1,7 +1,7 @@
 {
   "name": "novavi",
   "description": "A minimalistic 'Material Design 2.0'-inspired theme for Ghost.",
-  "version": "1.1.10",
+  "version": "1.1.11",
   "engines": {
       "ghost": ">=2.1.0"
   },
