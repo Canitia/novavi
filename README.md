@@ -22,7 +22,8 @@ This theme is currently marked 'stable'. Unless a new Ghost update introduces ma
 # Tested on:
 
 ## Platform 
-Novavi **requires** Ghost 2.1.x or up for certain features. 
+- Ghost 2.1.0
+- Ghost 2.7.1
 
 ## Browsers
 - Microsoft Edge (November 2018 Update)
