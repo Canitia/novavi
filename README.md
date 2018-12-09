@@ -25,11 +25,11 @@ This theme is currently marked 'stable'. Unless a new Ghost update introduces ma
 Novavi **requires** Ghost 2.1.x as is stated in package.json. 
 
 ## Browsers
-- Microsoft Edge (April 2018 Update)
-- Google Chrome 66.0.3359.139
-- Firefox Nightly 61.0-20180505
+- Microsoft Edge (November 2018 Update)
+- Google Chrome 71
+- Firefox 65.0.3
 
 # Customization
 
 ## Google Analytics
-To use Google Analytics, please parse the analytics code through Ghost's dashboard -> 'code injection'.
+You can use Ghost's new 'built-in integrations' to setup Google Analytics. Or do it the oldskool way by including the analytics code through Ghost's dashboard -> 'code injection'.
