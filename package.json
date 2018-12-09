@@ -1,7 +1,7 @@
 {
   "name": "novavi",
   "description": "A minimalistic 'Material Design 2.0'-inspired theme for Ghost.",
-  "version": "1.1.11",
+  "version": "1.1.12",
   "engines": {
       "ghost": ">=2.1.0"
   },
@@ -11,15 +11,15 @@
     "mobile": "assets/screenshot-mobile.png"
   },
   "author": {
-    "name": "Canitia.nl",  
+    "name": "Canitia",  
     "email": "support@canitia.nl",
     "url": "https://canitia.nl"
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/Canitia/novavi.git"
+    "url": "https://git.canitia.nl/Canitia/novavi.git"
   },
-  "bugs": "https://gitlab.com/Canitia/novavi/issues",
+  "bugs": "https://git.canitia.nl/Canitia/novavi/issues",
   "config": {
       "posts_per_page": 15
   },
