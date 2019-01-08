@@ -17,9 +17,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/Canitia/novavi.git"
+    "url": "https://github.com/Canitia/novavi.git"
   },
-  "bugs": "https://gitlab.com/Canitia/novavi/issues",
+  "bugs": "https://github.com/Canitia/novavi/issues",
   "config": {
       "posts_per_page": 15
   },
