@@ -1,7 +1,7 @@
 {
   "name": "novavi",
-  "description": "A minimalistic 'Material Design 2.0'-inspired theme for Ghost.",
-  "version": "1.1.14",
+  "description": "A minimalistic content-focused theme for Ghost.",
+  "version": "1.2.0",
   "engines": {
       "ghost": ">=2.1.0",
       "ghost-api": "v2"
@@ -22,7 +22,7 @@
   },
   "bugs": "https://github.com/Canitia/novavi/issues",
   "config": {
-      "posts_per_page": 15
+      "posts_per_page": 6
   },
   "keywords": [
     "ghost-theme",
