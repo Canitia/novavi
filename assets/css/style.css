@@ -741,10 +741,6 @@ iframe {
 	border-radius: 15px;
 }
 
-.author_wrap {
-
-}
-
 .author_wrap p {
 	color: black;
 	font-family: 'Montserrat Alternates', sans-serif !important;
@@ -1191,14 +1187,6 @@ footer {
 		padding-right: 10px;
 	}
 
-	.tag_head_wrap {
-
-	}
-
-	.tag_heading {
-		
-	}
-
 	.tag_heading_home {
 		top: 0px;
 		position: relative;
@@ -1479,10 +1467,6 @@ footer {
 *****************************************/
 .error {
 	background-color: orangered;
-}
-
-.error-row {
-
 }
 
 .read-more-btn {
