@@ -970,6 +970,10 @@ footer {
 
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:575px) {
+	.cover-image {
+		display: none;
+	}
+
 	.container {
 		margin: 0 !important;
 	}
