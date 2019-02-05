@@ -78,12 +78,12 @@
 
 <footer class="page-footer">
       <div class="top-socials">
-          <a href="{{@blog.url}}/rss" target="_blank"><i class="fas fa-rss"></i></a>
-          {{#if @blog.facebook}}
-            <a href="{{facebook_url @blog.facebook}}" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="{{@site.url}}/rss" target="_blank"><i class="fas fa-rss"></i></a>
+          {{#if @site.facebook}}
+            <a href="{{facebook_url @site.facebook}}" target="_blank"><i class="fab fa-facebook"></i></a>
           {{/if}}
-          {{#if @blog.twitter}}
-            <a href="{{twitter_url @blog.twitter}}" target="_blank"><i class="fab fa-twitter" ></i></a>
+          {{#if @site.twitter}}
+            <a href="{{twitter_url @site.twitter}}" target="_blank"><i class="fab fa-twitter" ></i></a>
           {{/if}}  
     </div>
     {{> 'ui/footer'}}
