@@ -342,7 +342,7 @@ img.logo {
 .homepage-image {
 	object-fit: cover;
 	width: 100%;
-	max-height: 200px;
+	max-height: 300px;
 }
 
 .collection {
@@ -1178,7 +1178,7 @@ footer {
 
 	.cover-image {
 		position: relative;
-		height: 200px;
+		height: 300px;
 	}
 
 	.text-main {
@@ -1283,16 +1283,16 @@ footer {
 	.tag_heading_home {
 		top: 0px;
 		position: relative;
-		height: 200px;
-		min-height: 200px;
+		height: 300px;
+		min-height: 300px;
 	}
 
 	.tag_heading_post {
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
-		height: 200px;
-		min-height: 200px;
+		height: 300px;
+		min-height: 300px;
 	}
 
 	.tag_heading > .posttitle.posttitle-author {
@@ -1407,17 +1407,17 @@ footer {
 
 	.tag_heading_post {
 		background-size: cover;
-		height: 200px !important;
-		max-height: 200px !important;
+		height: 300px !important;
+		max-height: 300px !important;
 	}
 
 	.tag_heading {
-		height: 200px !important;
+		height: 300px !important;
 	}
 
 	.tag_heading_home {
-		height: 200px !important;
-		max-height: 200px !important;
+		height: 300px !important;
+		max-height: 300px !important;
 	}
 
 }
