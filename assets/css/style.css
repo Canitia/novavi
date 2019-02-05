@@ -550,7 +550,8 @@ POST/ARTICLE HEADERS
 .kg-image-card.kg-width-full {
 	margin-left: calc(-95vw / 2 + 1060px / 2);
 	margin-right: calc(-95vw / 2 + 1060px / 2);
-    position: relative;
+	position: relative;
+	min-width: 100%;
 }
 
 .kg-image {
