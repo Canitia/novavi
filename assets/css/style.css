@@ -544,18 +544,20 @@ POST/ARTICLE HEADERS
 
 .kg-image-card.kg-width-wide {
     position: relative;
-    margin-left: calc(-75vw / 2 + 1060px / 2);
-    margin-right: calc(-75vw / 2 + 1060px / 2);
+	width: 100%;
 }
 
 .kg-image-card.kg-width-full {
-	margin-left: calc(-100vw / 2 + 1060px / 2);
-	margin-right: calc(-100vw / 2 + 1060px / 2);
+	margin-left: calc(-95vw / 2 + 1060px / 2);
+	margin-right: calc(-95vw / 2 + 1060px / 2);
     position: relative;
 }
 
 .kg-image {
-    max-width: 100%;
+	width: 85%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
  .kg-image-card figcaption,
