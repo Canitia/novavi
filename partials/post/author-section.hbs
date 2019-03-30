@@ -1,19 +1,19 @@
 {{#primary_author}}
 <section class="author-profile">
-<div class="row">
-    <div>
-        <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}" class="avatar" title="{{title}}" alt="Image of {{name}}"/> 
-    </div>
-    <div class="author-bio-text">
-      {{#if bio}}
-        <h3>{{name}}</h3>
-          {{bio}}
-      {{else}}
-          {{t "Whoops...that's not looking good. People have no idea who you are?!"}}
-  
-      {{/if}}
-    </div>
-</div>
+  <div class="row">
+      <div>
+          <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}" class="avatar" title="{{title}}" alt="Image of {{name}}"/> 
+      </div>
+      <div class="author-bio-text">
+        {{#if bio}}
+          <h3>{{name}}</h3>
+            {{bio}}
+        {{else}}
+            {{t "Whoops...that's not looking good. People have no idea who you are?!"}}
+    
+        {{/if}}
+      </div>
+  </div>
 </section>
 
 {{/primary_author}}
