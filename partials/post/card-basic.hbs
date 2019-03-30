@@ -1,27 +1,22 @@
 <div class="pure-g">
-
 {{#foreach posts}}
+  <div class="card">
+      <div class="pure-u-1 pure-u-md-1-3">
+          <a href="{{url}}"><img src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}" class="homepage-image" alt="{{title}}" title="{{title}}"></a>   
+      </div>
 
+      <div class="pure-u-1 pure-u-md-2-3">                     
+          <div class="card-block">
+            <h2 class="card-title"><a href="{{url}}" title="{{title}}">{{title}}</a> {{#if featured}}<span class="badge-featured"><i class="far fa-star"></i></span>{{/if}}  </h2>
+              <div class="card-actions-top">
+                <small class="text-muted badge">
+                      <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time>
+                </small>
 
-          <div class="card">
-                <div class="pure-u-1 pure-u-md-1-3">
-                    <a href="{{url}}"><img src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}" class="homepage-image" alt="{{title}}" title="{{title}}"></a>   
-                </div>
-
-                 <div class="pure-u-1 pure-u-md-2-3">                     
-                      <div class="card-block">
-                        <h2 class="card-title"><a href="{{url}}" title="{{title}}">{{title}}</a> {{#if featured}}<span class="badge-featured"><i class="far fa-star"></i></span>{{/if}}  </h2>
-                          <div class="card-actions-top">
-                            <small class="text-muted badge">
-                                 <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time>
-                            </small>
-   
-                          </div>
-                        <p class="card-text">{{excerpt words="21"}}</p>
-                      </div>
-                </div>
-          </div>  
-
+              </div>
+            <p class="card-text">{{excerpt words="21"}}</p>
+          </div>
+      </div>
+  </div>  
 {{/foreach}}
-
 </div>
