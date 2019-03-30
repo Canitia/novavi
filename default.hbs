@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="{{asset "css/style.css"}}">
     <!-- other used items -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-        {{! Ghost outputs important style and meta data with this tag }}
+    {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
 </head>
 
@@ -27,21 +27,20 @@
 <main class="{{body_class}}">
 
 {{#is "author"}}
-{{#author}}
-<div class="tag_head_wrap">
-  <div class="tag_heading text-center" style="background-image: url({{#if cover_image}}{{img_url cover_image}}{{/if}});">
-    <div class="author_wrap">
-        <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}" class="avatar-page avatar-page-author center-align" title="Image of {{name}}" alt="Image of {{name}}" />
-        <p class="posttitle posttitle-author">{{name}}</p>
-        <div class="socialfooter-top text-center socialfooter-top-author">
-            {{#if facebook}}<a href="{{facebook_url}}" target="blank"><i class="fab fa-facebook fa-facebook-author"></i></a>{{/if}}
-            {{#if twitter}}<a href="{{twitter_url}}" target="blank"><i class="fab fa-twitter fa-twitter-author"></i></a>{{/if}}
+    {{#author}}
+        <div class="tag_head_wrap">
+          <div class="tag_heading text-center" style="background-image: url({{#if cover_image}}{{img_url cover_image}}{{/if}});">
+            <div class="author_wrap">
+                <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}" class="avatar-page avatar-page-author center-align" title="Image of {{name}}" alt="Image of {{name}}" />
+                <p class="posttitle posttitle-author">{{name}}</p>
+                <div class="socialfooter-top text-center socialfooter-top-author">
+                    {{#if facebook}}<a href="{{facebook_url}}" target="blank"><i class="fab fa-facebook fa-facebook-author"></i></a>{{/if}}
+                    {{#if twitter}}<a href="{{twitter_url}}" target="blank"><i class="fab fa-twitter fa-twitter-author"></i></a>{{/if}}
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-  </div>
-
-  </div>
-{{/author}}
+    {{/author}}
 {{/is}}
 
 {{#is "tag"}}
