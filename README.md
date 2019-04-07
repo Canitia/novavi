@@ -1,8 +1,8 @@
 # Novavi's base
 Novavi uses the following libraries;
-- Font Awesome 5
-- [PureCSS](https://purecss.io/)
+- [PureCSS](https://github.com/pure-css/pure)
 - JQuery (3.1.x)
+- Font Awesome 5
 
 # Theme requirements
 - Novavi **requires** Ghost version **2.1.0** or newer to install and work as intended. 
@@ -26,7 +26,7 @@ This theme is currently marked 'stable'. Unless a new Ghost update introduces ma
 
 ## Browsers
 - Microsoft Edge (November 2018 Update)
-- Google Chrome 71
+- Google Chrome 72
 - Firefox 65.0.3
 
 # Customization
