@@ -1467,11 +1467,9 @@ footer {
 EXTERNAL libraries look-n-feel
 
 *****************************************/
-.fa-user-secret, .fa-tag {
-  color: #b5b5b5;
-}
-
-.fa-user-secret, .fa-tag {
+.fa-user-secret, 
+.fa-tag {
+	color: #b5b5b5;
 	margin-left:20px;
 	margin-right:20px;
 }
@@ -1513,9 +1511,10 @@ EXTERNAL libraries look-n-feel
 	border-radius: 15px;
 }
 
-.fa-twitter-author, .fa-facebook-author {
-    color: black;
-    background: white;
+.fa-twitter-author, 
+.fa-facebook-author {
+  color: black;
+  background: white;
 	border-radius: 15px;
 }
 
