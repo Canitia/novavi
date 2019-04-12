@@ -1,25 +1,22 @@
 <header>
-<nav class="navbar">
-  {{#if @site.logo}}
-
-        <div class="logo-fixed">
-          <a href="{{@site.url}}"><img src="{{@site.logo}}" alt="blog logo" class="logo-nav left" /></a>
-        </div>
-
-  {{else}}
-  <a href="{{@site.url}}" class="navbar-brand headerurl">{{@site.title}}</a>
-  {{/if}}
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-
-                <!-- Loop through the navigation items -->
+  <nav class="navbar">
+    {{#if @site.logo}}
+      <div class="logo-fixed">
+        <a href="{{@site.url}}"><img src="{{@site.logo}}" alt="blog logo" class="logo-nav left" /></a>
+      </div>
+    {{else}}
+      <a href="{{@site.url}}" class="navbar-brand headerurl">{{@site.title}}</a>
+    {{/if}}
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <!-- Loop through the navigation items -->
         {{#foreach navigation}}
         <li class="menu-item{{#if current}} active{{/if}}">
             <a href="{{url absolute="true"}}" class="nav-link">{{label}}</a>
         </li>
         {{/foreach}}
         <!-- End the loop -->
-    </ul>
-  </div>
-</nav>
+      </ul>
+    </div>
+  </nav>
 </header>
