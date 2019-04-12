@@ -1,8 +1,8 @@
 {{!< default}}
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
-  <div class="row h-100 page-row">
-  {{#post}}
-      <div class="main-content">
+<div class="row h-100 page-row">
+{{#post}}
+  <div class="main-content">
       <article>
         <div class="post-head">
               <h1 class="text-center post-title">{{title}}</h1>
@@ -30,11 +30,12 @@
           </div>
           {{/if}}<!-- end tags if -->
       </div><!-- end cat links -->
-         {{> 'post/author-section'}}
 
-         {{> 'post/related-posts'}}
+      <!-- partial loading -->
+      {{> 'post/author-section'}}
+
+      {{> 'post/related-posts'}}
       </article>
     </div>
 {{/post}}
-
 </div>
