@@ -152,7 +152,6 @@ p > a:focus, p > a:hover, p > em > a:hover, .collection-item > a:hover, p > em >
   background-color: white !important;
 }
 
-
 .col {
 	flex-basis: unset !important;
 }
@@ -183,9 +182,9 @@ p > a:focus, p > a:hover, p > em > a:hover, .collection-item > a:hover, p > em >
 }
 
 .text-main {
-    position: relative;
+  position: relative;
 	top: 375px;
-    display: flex;
+  display: flex;
 	justify-content: center;
 	text-align: center;
 	color: white;
@@ -196,7 +195,7 @@ p > a:focus, p > a:hover, p > em > a:hover, .collection-item > a:hover, p > em >
 }
 
 .cover-image {
-    width: 100%;
+  width: 100%;
 	object-fit: cover;
 	max-height: 500px;
 }
@@ -217,7 +216,6 @@ ul#navbarNav {
 	list-style-type: none;
 }
 
-
 .navbar-nav {
 	display: flex !important;
 	flex-wrap: nowrap !important;
@@ -228,7 +226,7 @@ ul#navbarNav {
 .headerurl {
 	text-decoration: none;
 	text-align: center;
-    display: block;
+  display: block;
 	font-size: 3em !important;
 	position: relative;
 	text-shadow: 1px 1px black;
@@ -329,8 +327,8 @@ img.logo {
 }
 
 .top-socials a i {
-    margin-left: 5px;
-    margin-right: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 /* **************************************
@@ -379,7 +377,9 @@ ul.collection.collection-recent > a > li:hover {
 	filter: brightness(80%);
 }
 
-.postdate > a, .author-profile h4, .text-left-title a, .author-url-post-head  {
+.postdate > a, .author-profile h4, 
+.text-left-title a, 
+.author-url-post-head  {
 	color:#b5b5b5 !important;
 }
 
@@ -419,8 +419,8 @@ POST/ARTICLE CARD UI - main
 }
 
 .card-title a:hover {
-    color: #4285f4;
-    text-decoration: none;
+	color: #4285f4;
+	text-decoration: none;
 }
 
 .card-block, .post-content {
@@ -450,7 +450,7 @@ POST/ARTICLE CARD UI - main
 
 .post-item-main {
 	margin-top: 5px;
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 	height: 235px !important;
 }
 
@@ -508,7 +508,7 @@ POST/ARTICLE HEADERS
 
 *****************************************/
 
- .post-template .kg-post > p:first-child {
+.post-template .kg-post > p:first-child {
     font-size: 1.25em;
     line-height: 1.5em;
 }
@@ -658,13 +658,13 @@ POST/ARTICLE HEADERS
 }
 
 .post-content a {
-    color: black;
+  color: black;
 }
 
 article {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
 	padding-top: 15px;
 	word-wrap: break-word;
 }
@@ -841,8 +841,6 @@ img.avatar {
 	font-weight: 300 !important;
 }
 
-
-
 .author-social {
 	margin-top: 50px;
 }
@@ -937,20 +935,20 @@ img.avatar {
 
 *****************************************/
 footer {
-    width: 100%;
-    overflow: hidden;
+  width: 100%;
+  overflow: hidden;
 	z-index: 999;
 	text-align: center;
 	margin-top: 25px;
 }
-
 
 .page-footer {
 	padding-top: 15px;
 	bottom: 0;
 }
 
-.footer a, .footer p {
+.footer a, 
+.footer p {
 	font-size: 12px;
 	color: black;
 	text-decoration: none;
@@ -1006,7 +1004,8 @@ footer {
 		flex-direction: column !important;
 	}
 
-	.headerurl, .nav-link {
+	.headerurl, 
+	.nav-link {
 		text-shadow: none;
 	}
 
@@ -1080,8 +1079,6 @@ footer {
 		height: 25px;
 	}
 
-/* Smaller margins to the page gets fit to nearly the full screen */
-
 	p.text-justify {
 		padding-top: 0px;
 		padding-left:15px;
@@ -1101,7 +1098,8 @@ footer {
 		margin-top: -15px;
 	}
 
-	.fa-star, .fa-circle {
+	.fa-star, 
+	.fa-circle {
 		margin-right: 5px;
 	}
 
@@ -1131,7 +1129,8 @@ footer {
 		padding: 15px;
 	}
 
-	.kg-image-card.kg-width-wide, .kg-image-card.kg-width-full {
+	.kg-image-card.kg-width-wide, 
+	.kg-image-card.kg-width-full {
 		margin-left: 0 !important;
 		margin-right: 0 !important;
 	}
@@ -1248,9 +1247,10 @@ footer {
     	font-size: 120%;
     }
 
-    .content-images, .content-images-individual {
-		object-fit: cover;
-    }
+		.content-images, 
+		.content-images-individual {
+			object-fit: cover;
+  }
 
 	.container-fluid {
 		margin-left: auto;
@@ -1324,7 +1324,8 @@ footer {
 		margin-top: 0;
 	}
 
-	.headerurl, .nav-link {
+	.headerurl, 
+	.nav-link {
 		text-shadow: none;
 	}
 
@@ -1357,7 +1358,8 @@ footer {
     	font-size: 120%;
     }
 
-    .content-images, .content-images-individual {
+		.content-images, 
+		.content-images-individual {
 		object-fit: cover;
     }
 
@@ -1383,7 +1385,8 @@ footer {
 	}
 
 
-	.kg-image-card.kg-width-wide, .kg-image-card.kg-width-full {
+	.kg-image-card.kg-width-wide, 
+	.kg-image-card.kg-width-full {
 		margin-left: 0 !important;
 		margin-right: 0 !important;
 	}
@@ -1450,8 +1453,8 @@ footer {
 }
 
 .card-actions-bottom {
-    display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
 	margin-bottom: 30px;
 }
 
@@ -1552,8 +1555,6 @@ i.fas.fa-exclamation-circle.fa-2x {
 	margin-bottom: 3px;
 	margin-top: 3px;
 }
-
-
 
 /* add some styling to disqus */
 #disqus_thread {
