@@ -1478,7 +1478,6 @@ EXTERNAL libraries look-n-feel
 	color: #3b5998;
 }
 
-
 .fa-twitter:hover {
 	color: #1dcaff;
 }
@@ -1526,12 +1525,15 @@ EXTERNAL libraries look-n-feel
 	margin-left: 20px;
 }
 
-.fa-clock, .fa-user, .fa-book {
+.fa-clock, 
+.fa-user, 
+.fa-book {
 	margin-right: 10px;
 	color: black;
 }
 
-.fa-user, .fa-book {
+.fa-user, 
+.fa-book {
 	margin-left: 25px;
 }
 
@@ -1557,8 +1559,8 @@ i.fas.fa-exclamation-circle.fa-2x {
 
 /* add some styling to disqus */
 #disqus_thread {
-padding-left: 40px;
-padding-right: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 
