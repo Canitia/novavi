@@ -82,18 +82,18 @@
 </main>
 
 <footer class="page-footer">
-      <div class="top-socials">
-          <a href="{{@site.url}}/rss" target="_blank"><i class="fas fa-rss"></i></a>
-          {{#if @site.facebook}}
-            <a href="{{facebook_url @site.facebook}}" target="_blank"><i class="fab fa-facebook"></i></a>
-          {{/if}}
-          {{#if @site.twitter}}
-            <a href="{{twitter_url @site.twitter}}" target="_blank"><i class="fab fa-twitter" ></i></a>
-          {{/if}}  
+    <div class="top-socials">
+      <a href="{{@site.url}}/rss" target="_blank"><i class="fas fa-rss"></i></a>
+      {{#if @site.facebook}}
+        <a href="{{facebook_url @site.facebook}}" target="_blank"><i class="fab fa-facebook"></i></a>
+      {{/if}}
+      {{#if @site.twitter}}
+        <a href="{{twitter_url @site.twitter}}" target="_blank"><i class="fab fa-twitter" ></i></a>
+      {{/if}}  
     </div>
     {{> 'ui/footer'}}
 </footer>
-<!-- Compiled and minified JavaScript -->
+<!-- Loading fonts -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.28/webfontloader.js"></script>
 <script>
   WebFont.load({
@@ -102,15 +102,17 @@
     }
   });
 </script>
-    <script>
-        var images = document.querySelectorAll('.kg-gallery-image img');
-        images.forEach(function (image) {
-            var container = image.closest('.kg-gallery-image');
-            var width = image.attributes.width.value;
-            var height = image.attributes.height.value;
-            var ratio = width / height;
-            container.style.flex = ratio + ' 1 0%';
-        })
-    </script>
+
+<!-- Ghost CSS related to the gallery -->
+<script>
+    var images = document.querySelectorAll('.kg-gallery-image img');
+    images.forEach(function (image) {
+        var container = image.closest('.kg-gallery-image');
+        var width = image.attributes.width.value;
+        var height = image.attributes.height.value;
+        var ratio = width / height;
+        container.style.flex = ratio + ' 1 0%';
+    })
+</script>
 {{ghost_foot}}
 </html>
