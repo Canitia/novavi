@@ -39,11 +39,9 @@
 {{#is "post, page"}}
     <div class="tag_head_wrap">
       {{#post}}
-          {{#if @site.cover_image}}
-            <div class="tag_heading tag_heading_post text-center" style="background-image: url({{img_url feature_image}});">
+            <div class="tag_heading tag_heading_post text-center" style="background-image: url({{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}});">
             
             </div>
-          {{/if}}
       {{/post}}
     </div>
 {{/is}}
