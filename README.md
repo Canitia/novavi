@@ -22,12 +22,12 @@ This theme is currently marked 'stable'. Unless a new Ghost update introduces ma
 # Tested on:
 
 ## Platform 
-- Ghost 2.11.x+
+- Ghost 3.x.x+
 
 ## Browsers
 - Microsoft Edge (November 2018 Update)
-- Google Chrome 72
-- Firefox 65.0.3
+- Google Chrome 78
+- Firefox 71
 
 # Customization
 
