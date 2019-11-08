@@ -2,8 +2,8 @@
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
 
   {{#author}}
-      <div class="tag_head_wrap" style="background-image: url('{{#if cover_image}}{{img_url cover_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}')">
-        <div class="tag_heading text-center">
+      <div class="tag_head_wrap">
+        <div class="tag_heading text-center" style="background-image: url('{{#if cover_image}}{{img_url cover_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}')">
           
           <div class="author_wrap">
           <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}" class="avatar-page avatar-page-author center-align" title="Image of {{name}}" alt="Image of {{name}}" />
@@ -12,7 +12,7 @@
             {{#if facebook}}<a href="{{facebook_url}}" target="blank"><i class="fab fa-facebook fa-facebook-author"></i></a>{{/if}}
             {{#if twitter}}<a href="{{twitter_url}}" target="blank"><i class="fab fa-twitter fa-twitter-author"></i></a>{{/if}}
             </div>
-            </div>
+          </div>
         </div>
 
         </div>
