@@ -779,6 +779,12 @@ iframe {
 	border-radius: 15px;
 }
 
+.author_wrap {
+	background:rgba(255,255,255,0.8);
+	padding: 10px;
+	border-radius: 5px;
+}
+
 .author_wrap p {
 	color: black;
 	font-family: 'Montserrat Alternates', sans-serif !important;
