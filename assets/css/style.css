@@ -93,6 +93,7 @@ p > a:focus, p > a:hover, p > em > a:hover, .collection-item > a:hover, p > em >
 	justify-content: center;
 	flex-direction: column;
 	background: white;
+	height: 300px !important;
 }
 
 .postdate a, .tag_heading  {
@@ -182,9 +183,9 @@ p > a:focus, p > a:hover, p > em > a:hover, .collection-item > a:hover, p > em >
 }
 
 .text-main {
-  position: relative;
+  	position: relative;
 	top: 375px;
-  display: flex;
+	display: flex;
 	justify-content: center;
 	text-align: center;
 	color: white;
@@ -195,7 +196,7 @@ p > a:focus, p > a:hover, p > em > a:hover, .collection-item > a:hover, p > em >
 }
 
 .cover-image {
-  width: 100%;
+	width: 100%;
 	object-fit: cover;
 	max-height: 500px;
 }
@@ -208,6 +209,7 @@ p > a:focus, p > a:hover, p > em > a:hover, .collection-item > a:hover, p > em >
 	margin-left: auto;
 	margin-right: auto;
 	background: white;
+	border: 2px solid #ebebeb;
 }
 
 ul#navbarNav {
@@ -220,6 +222,7 @@ ul#navbarNav {
 	display: flex !important;
 	flex-wrap: nowrap !important;
 	flex-direction: row !important;
+	padding-left: 0 !important;
 }
 
 /* color of clickable header */
@@ -400,7 +403,8 @@ POST/ARTICLE CARD UI - main
 
 .card {
 	border: 1px solid #ebebeb !important;
-	height: 200px;
+	height: 194px;
+	background: white;
 }
 
 .card:hover {
@@ -574,6 +578,10 @@ POST/ARTICLE HEADERS
 	text-align: center;
 	margin-bottom: 35px;
 	font-style: italic;
+	background:	#f8f8f8;
+	border: 2px solid #ebebeb;
+	border-radius: 0 0 5px 5px;
+	padding: 10px;
 }
 
  .post-full-content .kg-image-full + figcaption {
@@ -608,6 +616,71 @@ POST/ARTICLE HEADERS
  .kg-gallery-image:not(:first-of-type) {
     margin: 0 0 0 0.75em;
 }
+
+/* new link/bookmark item */
+
+.kg-bookmark-card {
+	padding: 20px;
+}
+
+.kg-bookmark-publisher {
+	font-weight: bold;
+}
+
+.kg-bookmark-container {
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    text-decoration: none;
+	border: 2px solid #ebebeb;
+	border-radius: 5px;
+	padding: 25px;
+	background: #f8f8f8;
+}
+
+.kg-bookmark-container:hover {
+	color: black !important;
+}
+
+.kg-bookmark-content {
+    flex-basis: 0;
+    flex-grow: 999;
+    min-width: 50%;
+    padding: 20px;
+}
+
+.kg-bookmark-title {
+    font-weight: 600;
+}
+
+.kg-bookmark-description,
+.kg-bookmark-metadata {
+    margin-top: 12px;
+}
+
+.kg-bookmark-thumbnail {
+    flex-basis: 15rem;
+    flex-grow: 1;
+}
+
+.kg-bookmark-thumbnail img {
+    vertical-align: bottom;
+    object-fit: cover;
+    width: 100%;
+}
+
+.kg-bookmark-icon {
+    width: 22px;
+    height: 22px;
+    margin-right: 8px;
+    vertical-align: bottom;
+}
+
+.kg-bookmark-author:after {
+    content: "•";
+    margin: 0 6px;
+}
+/* end new bookarm item */
 
 .post-template {
 	background: white;
@@ -705,6 +778,12 @@ iframe {
 	height: 75px;
 	width: 75px;
 	border-radius: 15px;
+}
+
+.author_wrap {
+	background:rgba(255,255,255,0.8);
+	padding: 10px;
+	border-radius: 5px;
 }
 
 .author_wrap p {
@@ -874,6 +953,7 @@ img.avatar {
 	list-style: none;
 	padding-left: 0;
 	margin: 0px;
+	background: white;
 }
 
 .pagination > .active {
@@ -949,10 +1029,9 @@ footer {
 
 .footer a, 
 .footer p {
-	font-size: 12px;
 	color: black;
-	text-decoration: none;
 	font-weight: bold;
+	margin-top: 25px;
 }
 
 .footer a:hover {
@@ -1009,16 +1088,12 @@ footer {
 		text-shadow: none;
 	}
 
-	.avatar-page {
-		width: 80px;
-	}
-
 	.tag_heading > .posttitle.posttitle-author {
 		font-size: 135%;
 	}
 
 	.tag_heading {
-		padding-top: 64px;
+		margin-bottom: 40px;
 	}
 
 	.tag_heading_post {
@@ -1156,6 +1231,10 @@ footer {
 		padding-right: 10px;
 	}
 
+	.tag_heading {
+		margin-bottom: 40px;
+	}
+
 	.tag_heading_home {
 		top: 0px;
 		position: relative;
@@ -1211,7 +1290,7 @@ footer {
 	}
 
 	.navbar-brand {
-		color: black !important;
+		color: white !important;
 	}
 
 	.navbar-brand:hover {
@@ -1247,10 +1326,10 @@ footer {
     	font-size: 120%;
     }
 
-		.content-images, 
-		.content-images-individual {
-			object-fit: cover;
-  }
+	.content-images, 
+	.content-images-individual {
+		object-fit: cover;
+  	}
 
 	.container-fluid {
 		margin-left: auto;
@@ -1279,10 +1358,6 @@ footer {
 
 @media (max-width:991px) and (min-width:768px) {
 
-	.tag_heading {
-		padding-top: 64px;
-	}
-
 	.tag_heading_home {
 		top: 0px;
 		position: relative;
@@ -1307,8 +1382,6 @@ footer {
 	}
 
 	.cover-image {
-		top: -155px;
-		position: relative;
 		height: 320px;
 	}
 
@@ -1330,7 +1403,6 @@ footer {
 	}
 
 	.navbar {
-		background: transparent !important;
 		margin-bottom: 0px;
 	}
 
@@ -1381,7 +1453,6 @@ footer {
 
 	.avatar-page-author {
 		margin-top: 30px;
-		width: 90px;
 	}
 
 
@@ -1415,10 +1486,6 @@ footer {
 		background-size: cover;
 		height: 300px !important;
 		max-height: 300px !important;
-	}
-
-	.tag_heading {
-		height: 300px !important;
 	}
 
 	.tag_heading_home {
