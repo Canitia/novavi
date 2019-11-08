@@ -1350,10 +1350,6 @@ footer {
 
 @media (max-width:991px) and (min-width:768px) {
 
-	.tag_heading {
-		padding-top: 64px;
-	}
-
 	.tag_heading_home {
 		top: 0px;
 		position: relative;
@@ -1449,7 +1445,6 @@ footer {
 
 	.avatar-page-author {
 		margin-top: 30px;
-		width: 90px;
 	}
 
 
