@@ -403,6 +403,7 @@ POST/ARTICLE CARD UI - main
 .card {
 	border: 1px solid #ebebeb !important;
 	height: 194px;
+	background: white;
 }
 
 .card:hover {
