@@ -182,9 +182,9 @@ p > a:focus, p > a:hover, p > em > a:hover, .collection-item > a:hover, p > em >
 }
 
 .text-main {
-  position: relative;
+  	position: relative;
 	top: 375px;
-  display: flex;
+	display: flex;
 	justify-content: center;
 	text-align: center;
 	color: white;
@@ -195,7 +195,7 @@ p > a:focus, p > a:hover, p > em > a:hover, .collection-item > a:hover, p > em >
 }
 
 .cover-image {
-  width: 100%;
+	width: 100%;
 	object-fit: cover;
 	max-height: 500px;
 }
@@ -208,6 +208,7 @@ p > a:focus, p > a:hover, p > em > a:hover, .collection-item > a:hover, p > em >
 	margin-left: auto;
 	margin-right: auto;
 	background: white;
+	border: 2px solid #ebebeb;
 }
 
 ul#navbarNav {
@@ -220,6 +221,7 @@ ul#navbarNav {
 	display: flex !important;
 	flex-wrap: nowrap !important;
 	flex-direction: row !important;
+	padding-left: 0 !important;
 }
 
 /* color of clickable header */
@@ -939,6 +941,7 @@ img.avatar {
 	list-style: none;
 	padding-left: 0;
 	margin: 0px;
+	background: #111;
 }
 
 .pagination > .active {
@@ -1276,7 +1279,7 @@ footer {
 	}
 
 	.navbar-brand {
-		color: black !important;
+		color: white !important;
 	}
 
 	.navbar-brand:hover {
@@ -1372,8 +1375,6 @@ footer {
 	}
 
 	.cover-image {
-		top: -155px;
-		position: relative;
 		height: 320px;
 	}
 
@@ -1395,7 +1396,6 @@ footer {
 	}
 
 	.navbar {
-		background: transparent !important;
 		margin-bottom: 0px;
 	}
 
