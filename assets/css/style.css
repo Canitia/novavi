@@ -22,7 +22,12 @@ html body {
 	font-family: 'Antic Slab', serif !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
     color: #2f313d;
 }
 
@@ -30,7 +35,11 @@ h1 {
 	font-family: 'Roboto', sans-serif !important;
 }
 
-h2, h3, h4, h5, h6 {
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
 	font-family: 'Montserrat Alternates', sans-serif !important;
 }
 
@@ -38,7 +47,8 @@ p {
 	margin: 0 0 1.66667em;
 }
 
-p > a, p > em > a {
+p > a, 
+p > em > a {
 	text-decoration: underline;
 }
 
@@ -78,12 +88,16 @@ strong {
   font-weight: 700 !important;
 }
 
-p > a, .collection .collection-item, .collection-item > a, p > em > a {
+p > a, .collection .collection-item, 
+.collection-item > a, p > em > a {
 	color: black !important;
 }
 
-p > a:focus, p > a:hover, p > em > a:hover, .collection-item > a:hover, p > em > a:hover
-{
+p > a:focus, 
+p > a:hover, 
+p > em > a:hover, 
+.collection-item > a:hover, 
+p > em > a:hover {
   color:#4285f4 !important;
 }
 
@@ -96,7 +110,8 @@ p > a:focus, p > a:hover, p > em > a:hover, .collection-item > a:hover, p > em >
 	height: 300px !important;
 }
 
-.postdate a, .tag_heading  {
+.postdate a, 
+.tag_heading  {
       color: white !important;
 }
 
@@ -229,7 +244,7 @@ ul#navbarNav {
 .headerurl {
 	text-decoration: none;
 	text-align: center;
-  display: block;
+  	display: block;
 	font-size: 3em !important;
 	position: relative;
 	text-shadow: 1px 1px black;
@@ -427,7 +442,8 @@ POST/ARTICLE CARD UI - main
 	text-decoration: none;
 }
 
-.card-block, .post-content {
+.card-block, 
+.post-content {
 	padding: 15px;
 }
 
@@ -735,9 +751,9 @@ POST/ARTICLE HEADERS
 }
 
 article {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
 	padding-top: 15px;
 	word-wrap: break-word;
 }
@@ -994,7 +1010,8 @@ img.avatar {
 .pagination li {
     display: flex;
     align-items: center;
-    justify-content: center;
+	j
+	ustify-content: center;
 }
 /* **************************************
 
@@ -1007,7 +1024,6 @@ img.avatar {
 	padding-left: 10px;
 	padding-right: 10px;
 }
-
 
 /* **************************************
 
@@ -1285,7 +1301,8 @@ footer {
 		max-width: 100vw;
 	}
 
-	.headerurl, .nav-link {
+	.headerurl, 
+	.nav-link {
 		text-shadow: none;
 	}
 
@@ -1348,7 +1365,8 @@ footer {
 		padding: 25px;
 	}
 
-	.kg-image-card.kg-width-wide, .kg-image-card.kg-width-full {
+	.kg-image-card.kg-width-wide, 
+	.kg-image-card.kg-width-full {
 		margin-left: 0 !important;
 		margin-right: 0 !important;
 	}
@@ -1430,8 +1448,8 @@ footer {
     	font-size: 120%;
     }
 
-		.content-images, 
-		.content-images-individual {
+	.content-images, 
+	.content-images-individual {
 		object-fit: cover;
     }
 
@@ -1579,8 +1597,8 @@ EXTERNAL libraries look-n-feel
 
 .fa-twitter-author, 
 .fa-facebook-author {
-  color: black;
-  background: white;
+	color: black;
+	background: white;
 	border-radius: 15px;
 }
 
