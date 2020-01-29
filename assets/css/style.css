@@ -1030,8 +1030,8 @@ img.avatar {
 
 *****************************************/
 footer {
-  width: 100%;
-  overflow: hidden;
+	width: 100%;
+	overflow: hidden;
 	z-index: 999;
 	text-align: center;
 	margin-top: 25px;
