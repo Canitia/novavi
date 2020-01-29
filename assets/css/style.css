@@ -1010,8 +1010,7 @@ img.avatar {
 .pagination li {
     display: flex;
     align-items: center;
-	j
-	ustify-content: center;
+	justify-content: center;
 }
 /* **************************************
 
