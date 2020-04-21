@@ -1,3 +1,10 @@
+# Novavi
+
+![Master version](https://img.shields.io/github/package-json/v/Canitia/novavi/master?style=flat-square)
+![Development version](https://img.shields.io/github/package-json/v/Canitia/novavi/dev?style=flat-square)
+![License](https://img.shields.io/github/license/Canitia/novavi?style=flat-square)
+[![CodeFactor](https://www.codefactor.io/repository/github/canitia/novavi/badge)](https://www.codefactor.io/repository/github/canitia/novavi)
+
 # Novavi's base
 Novavi uses the following libraries;
 - [PureCSS](https://github.com/pure-css/pure)
