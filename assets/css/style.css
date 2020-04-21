@@ -57,7 +57,7 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #ededed !important;
-	margin-top: 0px;
+	margin-top: 0;
     padding: 0;
 }
 
@@ -1172,7 +1172,7 @@ footer {
 	}
 
 	p.text-justify {
-		padding-top: 0px;
+		padding-top: 0;
 		padding-left:15px;
 		padding-right:15px;
 		padding-bottom:15px;
@@ -1248,7 +1248,7 @@ footer {
 	}
 
 	.tag_heading_home {
-		top: 0px;
+		top: 0;
 		position: relative;
 		height: 100%;
 	}
@@ -1373,7 +1373,7 @@ footer {
 @media (max-width:991px) and (min-width:768px) {
 
 	.tag_heading_home {
-		top: 0px;
+		top: 0;
 		position: relative;
 		height: 300px;
 		min-height: 300px;
