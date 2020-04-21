@@ -98,8 +98,7 @@ p > em > a {
 p > a:focus,
 p > a:hover,
 p > em > a:hover,
-.collection-item > a:hover,
-p > em > a:hover {
+.collection-item > a:hover {
   color:#4285f4 !important;
 }
 
