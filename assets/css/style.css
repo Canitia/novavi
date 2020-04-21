@@ -103,14 +103,6 @@ p > em > a:hover {
   color:#4285f4 !important;
 }
 
-.tag_heading {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	background-color: white;
-	height: 300px !important;
-}
 
 .postdate a,
 .tag_heading  {
@@ -836,6 +828,12 @@ iframe {
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	background-color: white;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 300px !important;
 }
 
 .tag_heading_post {
