@@ -968,7 +968,7 @@ img.avatar {
 .pagination {
 	list-style: none;
 	padding-left: 0;
-	margin: 0px;
+	margin: 0;
 	background-color: white;
 }
 
@@ -995,7 +995,7 @@ img.avatar {
 	text-align: center;
 	margin-left: 5px;
 	margin-right: 5px;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 	background: #f8f8f8;
 }
 
@@ -1196,7 +1196,7 @@ footer {
 	}
 
 	.post-content ul li {
-		margin-left: 0px;
+		margin-left: 0;
 	}
 
 	.tagslist {
@@ -1417,7 +1417,7 @@ footer {
 	}
 
 	.navbar {
-		margin-bottom: 0px;
+		margin-bottom: 0;
 	}
 
 	.navbar-brand {
