@@ -621,7 +621,7 @@ POST/ARTICLE HEADERS
     height: 100%;
 }
  .kg-gallery-row:not(:first-of-type) {
-    margin: 0.75em 0 0 0;
+    margin: 0.75em 0 0;
 }
  .kg-gallery-image:not(:first-of-type) {
     margin: 0 0 0 0.75em;
@@ -1506,10 +1506,6 @@ footer {
 		height: 300px !important;
 		max-height: 300px !important;
 	}
-
-}
-
-@media only screen and (min-width: 1200px) {
 
 }
 
