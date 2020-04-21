@@ -1092,6 +1092,8 @@ footer {
 
 	.card-block {
 		max-width: 100% !important;
+		height: auto !important;
+		padding: 10px;
 	}
 
 	.card {
@@ -1206,11 +1208,6 @@ footer {
 
 	.tagslist a {
 		padding: 3px;
-	}
-
-	.card-block {
-		height: auto !important;
-		padding: 10px;
 	}
 
 	.page-row {
