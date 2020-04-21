@@ -354,7 +354,7 @@ img.logo {
 }
 
 .collection {
-	margin:0px !important;
+	margin: 0 !important;
 	padding:0 !important;
 	border: 0 !important;
 }
@@ -421,8 +421,8 @@ POST/ARTICLE CARD UI - main
 }
 
 .card-title {
-	margin-top: 0px !important;
-	margin-bottom: 0px !important;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
 }
 
 .card-title a {
@@ -801,7 +801,7 @@ iframe {
 	font-family: 'Montserrat Alternates', sans-serif !important;
 	font-weight: 700;
 	font-size: 125%;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 .tag_head_wrap {
@@ -1132,7 +1132,7 @@ footer {
 	
 	h1 {
 		font-size: 2rem !important;
-		margin-top: 0px;
+		margin-top: 0;
 	}
 
 	h2 {
