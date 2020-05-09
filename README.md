@@ -29,7 +29,7 @@ This theme is currently marked 'stable'. Unless a new Ghost update introduces ma
 # Tested on:
 
 ## Platform 
-- Ghost 3.x.x+
+- Ghost 3.15.x
 
 ## Browsers
 - Microsoft Edge (November 2018 Update)
