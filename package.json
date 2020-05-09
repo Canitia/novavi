@@ -1,7 +1,7 @@
 {
   "name": "novavi",
   "description": "A minimalistic content-focused theme for Ghost.",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "engines": {
       "ghost": ">=3.0",
       "ghost-api": "v2"
