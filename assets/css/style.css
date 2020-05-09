@@ -136,7 +136,7 @@ p > em > a:hover,
 }
 
 .socialfooter-top {
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 /* **************************************
@@ -757,7 +757,7 @@ article {
 	height: 100%;
 	top: 150px;
 	position: relative;
-	opacity: 0.8;
+	opacity: 0.5;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
@@ -790,7 +790,7 @@ iframe {
 }
 
 .author_wrap {
-	background:rgba(255,255,255,0.8);
+	background:rgba(255,255,255,0.5);
 	border-radius: 5px;
 	height: 300px;
 	display: flex;
@@ -844,7 +844,7 @@ iframe {
 	margin-bottom: 0;
 	text-transform: capitalize;
 	z-index: 10;
-	opacity: 0.8;
+	opacity: 0.5;
 	font-family: 'Montserrat Alternates', sans-serif !important;
 	background:white;
 	height: 300px;
