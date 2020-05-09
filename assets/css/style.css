@@ -838,6 +838,7 @@ iframe {
 	color: black !important;
 	border-radius: 15px;
 	padding: 10px;
+	margin-bottom: 0;
 	text-transform: capitalize;
 	z-index: 10;
 	opacity: 0.8;
