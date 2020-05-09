@@ -33,8 +33,8 @@ This theme is currently marked 'stable'. Unless a new Ghost update introduces ma
 
 ## Browsers
 - Microsoft Edge (November 2018 Update)
-- Chromium 79
-- Firefox 74a1
+- Chromium 80.x
+- Firefox 78.x
 
 # Customization
 
