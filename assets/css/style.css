@@ -793,6 +793,10 @@ iframe {
 	background:rgba(255,255,255,0.8);
 	border-radius: 5px;
 	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
 
 .author_wrap p {
