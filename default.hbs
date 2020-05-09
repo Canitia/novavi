@@ -15,7 +15,13 @@
     {{ghost_head}}
 </head>
 
-
+  {{#if @site.cover_image}}
+      <div class="tag_head_wrap cover-image">
+          <div class="tag_heading tag_heading_post text-center" style="background-image: url({{@site.cover_image}});">
+          
+          </div>
+      </div>
+    {{/if}}
 <!-- main navigation -->
 {{navigation}}
 <main class="{{body_class}}">
@@ -38,16 +44,6 @@
             </div>
       {{/post}}
     </div>
-{{/is}}
-
-{{#is "home"}}
-  {{#if @site.cover_image}}
-      <div class="tag_head_wrap cover-image">
-          <div class="tag_heading tag_heading_post text-center" style="background-image: url({{@site.cover_image}});">
-          
-          </div>
-      </div>
-    {{/if}}
 {{/is}}
 <div class="container-fluid">
 
