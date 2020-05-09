@@ -1107,10 +1107,6 @@ footer {
 		font-size: 135%;
 	}
 
-	.tag_heading {
-		margin-bottom: 40px;
-	}
-
 	.tag_heading_post {
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -1239,10 +1235,6 @@ footer {
 	.menu-item {
 		padding-left: 10px;
 		padding-right: 10px;
-	}
-
-	.tag_heading {
-		margin-bottom: 40px;
 	}
 
 	.tag_heading_home {
