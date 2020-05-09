@@ -820,18 +820,10 @@ iframe {
 }
 
 .tag_heading {
-	width: 100%;
 	object-fit: cover;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	background-color: white;
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	height: 300px !important;
 }
 
 .tag_heading_post {
