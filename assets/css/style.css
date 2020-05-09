@@ -824,6 +824,7 @@ iframe {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
+	height: 300px;
 }
 
 .tag_heading_post {
@@ -836,13 +837,16 @@ iframe {
     font-size: 2.5em;
 	text-shadow: none;
 	color: black !important;
-	padding: 10px;
 	margin-bottom: 0;
 	text-transform: capitalize;
 	z-index: 10;
 	opacity: 0.8;
 	font-family: 'Montserrat Alternates', sans-serif !important;
 	background:white;
+	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .cat-links-hr {
