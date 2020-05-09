@@ -135,10 +135,6 @@ p > em > a:hover,
 	text-decoration: underline;
 }
 
-.socialfooter-top {
-    opacity: 0.8;
-}
-
 /* **************************************
 
   SPECIFIC RESTRICTIONS TO GUI
@@ -412,7 +408,6 @@ POST/ARTICLE CARD UI - main
 
 .card {
 	border: 1px solid #ebebeb !important;
-	height: 194px;
 	background-color: white;
 }
 
@@ -758,7 +753,7 @@ article {
 	height: 100%;
 	top: 150px;
 	position: relative;
-	opacity: 0.8;
+	opacity: 0.5;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
@@ -791,9 +786,13 @@ iframe {
 }
 
 .author_wrap {
-	background:rgba(255,255,255,0.8);
-	padding: 10px;
+	background:rgba(255,255,255,0.5);
 	border-radius: 5px;
+	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
 
 .author_wrap p {
@@ -821,18 +820,11 @@ iframe {
 }
 
 .tag_heading {
-	width: 100%;
 	object-fit: cover;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	background-color: white;
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	height: 300px !important;
+	height: 300px;
 }
 
 .tag_heading_post {
@@ -845,13 +837,16 @@ iframe {
     font-size: 2.5em;
 	text-shadow: none;
 	color: black !important;
-	border-radius: 15px;
-	padding: 10px;
+	margin-bottom: 0;
 	text-transform: capitalize;
 	z-index: 10;
-	opacity: 0.8;
+	opacity: 0.5;
 	font-family: 'Montserrat Alternates', sans-serif !important;
 	background:white;
+	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .cat-links-hr {
@@ -1095,7 +1090,6 @@ footer {
 
 	.card {
 		border: 0 !important;
-		height: unset;
 		padding-bottom: 30px;
 		flex-direction: column !important;
 	}
@@ -1107,10 +1101,6 @@ footer {
 
 	.tag_heading > .posttitle.posttitle-author {
 		font-size: 135%;
-	}
-
-	.tag_heading {
-		margin-bottom: 40px;
 	}
 
 	.tag_heading_post {
@@ -1243,10 +1233,6 @@ footer {
 		padding-right: 10px;
 	}
 
-	.tag_heading {
-		margin-bottom: 40px;
-	}
-
 	.tag_heading_home {
 		top: 0;
 		position: relative;
@@ -1283,7 +1269,6 @@ footer {
 
 	.card {
 		border: 0 !important;
-		height: unset;
 		padding-bottom: 30px;
 		flex-direction: column !important;
 	}
