@@ -412,7 +412,6 @@ POST/ARTICLE CARD UI - main
 
 .card {
 	border: 1px solid #ebebeb !important;
-	height: 194px;
 	background-color: white;
 }
 
@@ -1095,7 +1094,6 @@ footer {
 
 	.card {
 		border: 0 !important;
-		height: unset;
 		padding-bottom: 30px;
 		flex-direction: column !important;
 	}
@@ -1283,7 +1281,6 @@ footer {
 
 	.card {
 		border: 0 !important;
-		height: unset;
 		padding-bottom: 30px;
 		flex-direction: column !important;
 	}
