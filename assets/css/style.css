@@ -102,7 +102,6 @@ p > em > a:hover,
   color:#4285f4 !important;
 }
 
-
 .postdate a,
 .tag_heading  {
       color: white !important;
@@ -343,6 +342,7 @@ img.logo {
   CONTENT MAIN
 
 *****************************************/
+
 .homepage-image {
 	object-fit: cover;
 	width: 100%;
