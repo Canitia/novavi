@@ -18,9 +18,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Canitia/novavi.git"
+    "url": "https://github.com/pixelateddeveloper/novavi.git"
   },
-  "bugs": "https://github.com/Canitia/novavi/issues",
+  "bugs": "https://github.com/pixelateddeveloper/novavi/issues",
   "config": {
       "posts_per_page": 6
   },
