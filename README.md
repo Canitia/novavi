@@ -1,9 +1,9 @@
 # Novavi
 
-![Master version](https://img.shields.io/github/package-json/v/Canitia/novavi/master?style=flat-square)
-![Development version](https://img.shields.io/github/package-json/v/Canitia/novavi/dev?style=flat-square)
-![License](https://img.shields.io/github/license/Canitia/novavi?style=flat-square)
-[![CodeFactor](https://www.codefactor.io/repository/github/canitia/novavi/badge)](https://www.codefactor.io/repository/github/canitia/novavi)
+![Master version](https://img.shields.io/github/package-json/v/pixelateddeveloper/novavi/master?style=flat-square)
+![Development version](https://img.shields.io/github/package-json/v/pixelateddeveloper/novavi/dev?style=flat-square)
+![License](https://img.shields.io/github/license/pixelateddeveloper/novavi?style=flat-square)
+[![CodeFactor](https://www.codefactor.io/repository/github/pixelateddeveloper/novavi/badge)](https://www.codefactor.io/repository/github/pixelateddeveloper/novavi)
 
 # Novavi's base
 Novavi uses the following libraries;
@@ -15,7 +15,7 @@ Novavi uses the following libraries;
 - Novavi **requires** Ghost version **2.1.0** or newer to install and work as intended. 
 - Enable the Ghost API in the Ghost settings panel -> Labs -> Ghost API for the full featureset (although it's likely on by default if you run the latest version).
 
-![Novavi main](https://github.com/canitia/novavi/raw/master/assets/screenshot-desktop.png)
+![Novavi main](https://github.com/pixelateddeveloper/novavi/raw/master/assets/screenshot-desktop.png)
 
 # Release
 This theme is currently marked 'stable'. Unless a new Ghost update introduces major new features or rewrites it's about as stable as can be ;).
@@ -33,8 +33,8 @@ This theme is currently marked 'stable'. Unless a new Ghost update introduces ma
 
 ## Browsers
 - Microsoft Edge (November 2018 Update)
-- Chromium 80.x
-- Firefox 78.x
+- Chromium
+- Firefox
 
 # Customization
 
