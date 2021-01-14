@@ -242,10 +242,6 @@ ul#navbarNav {
 	color: black !important;
 }
 
-.menu-item.active > .nav-link {
-	color: #4285f4 !important;
-}
-
  .nav-link:hover {
 	color: #4285f4 !important;
 	border-radius: 15px;
@@ -1040,6 +1036,7 @@ footer {
 .footer a,
 .footer p {
 	color: black;
+	font-size: 14px;
 	font-weight: bold;
 	margin-top: 25px;
 }
