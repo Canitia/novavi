@@ -242,10 +242,6 @@ ul#navbarNav {
 	color: black !important;
 }
 
-.menu-item.active > .nav-link {
-	color: #4285f4 !important;
-}
-
  .nav-link:hover {
 	color: #4285f4 !important;
 	border-radius: 15px;
