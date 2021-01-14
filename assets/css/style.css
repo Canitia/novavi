@@ -1040,6 +1040,7 @@ footer {
 .footer a,
 .footer p {
 	color: black;
+	font-size: 14px;
 	font-weight: bold;
 	margin-top: 25px;
 }
