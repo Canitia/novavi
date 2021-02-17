@@ -1,4 +1,5 @@
-# Novavi
+# End of Life
+Novavi is currently marked unmaintained (as of february 2021). It hasn't seen much big new features that the newer Ghost versions implement.
 
 ![Master version](https://img.shields.io/github/package-json/v/pixelateddeveloper/novavi-ghost-theme/master?style=flat-square)
 ![Development version](https://img.shields.io/github/package-json/v/pixelateddeveloper/novavi-ghost-theme/dev?style=flat-square)
