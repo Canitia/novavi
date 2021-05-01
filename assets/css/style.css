@@ -828,9 +828,7 @@ iframe {
 	margin-bottom: 0;
 	text-transform: capitalize;
 	z-index: 10;
-	opacity: 0.5;
 	font-family: 'Montserrat Alternates', sans-serif !important;
-	background:white;
 	height: 300px;
 	display: flex;
 	align-items: center;
