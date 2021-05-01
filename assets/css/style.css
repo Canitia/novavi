@@ -99,7 +99,7 @@ p > a:focus,
 p > a:hover,
 p > em > a:hover,
 .collection-item > a:hover {
-  color:#4285f4 !important;
+  color:var(--ghost-accent-color) !important;
 }
 
 .postdate a,
@@ -130,7 +130,7 @@ p > em > a:hover,
 
 .post-subitems > a:hover
 {
-	color: #4285f4 !important;
+	color: var(--ghost-accent-color) !important;
 	text-decoration: underline;
 }
 
@@ -243,7 +243,7 @@ ul#navbarNav {
 }
 
  .nav-link:hover {
-	color: #4285f4 !important;
+	color: var(--ghost-accent-color) !important;
 	border-radius: 15px;
 	text-decoration: none;
 	text-shadow: none;
@@ -415,7 +415,7 @@ POST/ARTICLE CARD UI - main
 }
 
 .card-title a:hover {
-	color: #4285f4;
+	color: var(--ghost-accent-color);
 	text-decoration: none;
 }
 
@@ -845,7 +845,7 @@ iframe {
 
 .cat-links > a:hover {
 	text-decoration: underline;
-	color: #4285f4 !important;
+	color: var(--ghost-accent-color) !important;
 }
 
 .tagslist {
@@ -863,7 +863,7 @@ iframe {
 }
 
 .tagslist a:hover {
-	color: #4285f4;
+	color: var(--ghost-accent-color);
 	text-decoration: underline;
 }
 
@@ -1034,7 +1034,7 @@ footer {
 }
 
 .footer a:hover {
-	color: #4285f4 !important;
+	color: var(--ghost-accent-color) !important;
 }
 
 /* **************************************
@@ -1493,7 +1493,7 @@ footer {
 }
 
 .read-more-btn:hover {
-	border:1px solid #4285f4 !important;
+	border:1px solid var(--ghost-accent-color) !important;
 }
 
 .card-actions-bottom {
