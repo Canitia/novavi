@@ -1484,9 +1484,12 @@ footer {
 }
 
 .read-more-btn {
-	background-color: white !important;
+	background-color: #ebebeb;
 	color: black !important;
 	border: 1px solid grey !important;
+	padding: 10px;
+	text-decoration: none;
+	border-radius: 2px;
 }
 
 .read-more-btn:hover {
