@@ -296,10 +296,6 @@ img.logo {
 	text-decoration: none;
 }
 
-.menu-item > a:hover {
-	text-decoration: underline;
-}
-
 .menu-item > ul > .menu-item {
 	margin-top: -11px;
 	margin-bottom: -8px;
