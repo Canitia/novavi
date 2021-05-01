@@ -176,7 +176,7 @@ p > em > a:hover,
 }
 
 .logo-nav {
-	height: 50px;
+	height: 32px;
 	margin-left: 8px !important;
 	margin-left: auto;
 	margin-right: auto;
@@ -1057,11 +1057,6 @@ footer {
 		margin: 0 !important;
 	}
 
-	.logo-fixed,
-	.logo-nav {
-		height: 32px;
-	}
-
 	.navbar-nav {
 		padding-left: 0 !important;
 	}
@@ -1214,11 +1209,6 @@ footer {
 
 	.navbar-nav {
 		padding-left: 0 !important;
-	}
-
-	.logo-fixed,
-	.logo-nav {
-		height: 40px;
 	}
 
 	.menu-item {
