@@ -403,10 +403,6 @@ POST/ARTICLE CARD UI - main
 	background-color: white;
 }
 
-.card:hover {
-    background: #f8f8f8;
-}
-
 .card-title {
 	margin-top: 0 !important;
 	margin-bottom: 0 !important;
