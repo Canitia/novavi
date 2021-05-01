@@ -225,7 +225,7 @@ ul#navbarNav {
 	display: flex !important;
 	flex-wrap: nowrap !important;
 	flex-direction: row !important;
-	padding-left: 0 !important;
+	padding-left: 10px !important;
 }
 
 /* color of clickable header */
