@@ -1497,8 +1497,8 @@ footer {
 }
 
 .card-actions-bottom {
-  display: block;
-  text-align: center;
+	display: block;
+	text-align: center;
 	margin-bottom: 30px;
 }
 
