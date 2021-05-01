@@ -3,7 +3,7 @@
   "description": "A minimalistic content-focused theme for Ghost.",
   "version": "1.4.0",
   "engines": {
-      "ghost": ">=3.38.0",
+      "ghost": ">=4.0.0",
       "ghost-api": "v3"
   },
   "license": "MIT",
