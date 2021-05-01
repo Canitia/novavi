@@ -1,10 +1,7 @@
-# End of Life
-Novavi is currently marked unmaintained (as of february 2021). It hasn't seen much big new features that the newer Ghost versions implement.
-
-![Master version](https://img.shields.io/github/package-json/v/pixelateddeveloper/novavi-ghost-theme/master?style=flat-square)
-![Development version](https://img.shields.io/github/package-json/v/pixelateddeveloper/novavi-ghost-theme/dev?style=flat-square)
-![License](https://img.shields.io/github/license/pixelateddeveloper/novavi-ghost-theme?style=flat-square)
-[![CodeFactor](https://www.codefactor.io/repository/github/pixelateddeveloper/novavi-ghost-theme/badge)](https://www.codefactor.io/repository/github/pixelateddeveloper/novavi-ghost-theme)
+![Master version](https://img.shields.io/github/package-json/v/spookthemes/novavi-ghost-theme/master?style=flat-square)
+![Development version](https://img.shields.io/github/package-json/v/spookthemes/novavi-ghost-theme/dev?style=flat-square)
+![License](https://img.shields.io/github/license/spookthemes/novavi-ghost-theme?style=flat-square)
+[![CodeFactor](https://www.codefactor.io/repository/github/spookthemes/novavi-ghost-theme/badge)](https://www.codefactor.io/repository/github/spookthemes/novavi-ghost-theme)
 
 # Novavi's base
 Novavi uses the following libraries;
@@ -14,7 +11,7 @@ Novavi uses the following libraries;
 
 # 📷 Screenshot
 
-![Novavi main](https://github.com/pixelateddeveloper/novavi-ghost-theme/raw/master/assets/screenshot-desktop.png)
+![Novavi main](https://github.com/spookthemes/novavi-ghost-theme/raw/master/assets/screenshot-desktop.png)
 
 # Use
 - Download the package from the releases page
